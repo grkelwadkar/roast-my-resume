@@ -613,8 +613,7 @@ export default function App() {
             className="text-xs text-center max-w-md"
             style={{ color: PALETTE.inkFaint }}
           >
-            Screenshot the card above to share. Full rewrite suggestions and
-            an ATS-compatibility pass coming as a premium unlock.
+            Screenshot the card above to share. Full rewrite suggestions coming soon.
           </p>
         </div>
       )}
