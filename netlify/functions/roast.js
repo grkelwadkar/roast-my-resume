@@ -1,7 +1,7 @@
 // netlify/functions/roast.js
 import { connectLambda, getStore } from "@netlify/blobs";
 
-const LIMIT = 1; // max roasts
+const LIMIT = 5; // max roasts
 const WINDOW_MS = 60 * 60 * 1000; // per 1 hour, per IP
 
 export async function handler(event) {
